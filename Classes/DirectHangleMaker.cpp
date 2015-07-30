@@ -67,9 +67,11 @@ static inline std::string changeWstringToDirectString(wchar_t inputWChar)
          k  h u  y i  ; n j l  o  0 ' p  m
          
          중성
-         ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ ㅐ ㅒ ㅔ ㅖ ㅘ ㅚ ㅙ ㅝ ㅟ ㅞ
-         f  6 t  e v
+         ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ ㅐ ㅒ ㅔ ㅖ ㅘ  ㅚ   ㅙ  ㅝ   ㅟ   ㅞ
+         f  6 t  e v 4  b 5 g  d  r    c   vf  vd  vd  bt  bd  bc
+         
          종성
+         ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ
          
          */
         
@@ -127,7 +129,7 @@ static inline std::string changeWstringToDirectString(wchar_t inputWChar)
             return returnStrList[i];
         }
     }
-    return " ";
+    return "B";
     
 }
 std::string DirectHangleMaker::makeDirect(std::wstring inputString)

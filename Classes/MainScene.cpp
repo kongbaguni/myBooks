@@ -26,7 +26,7 @@ bool MainScene::init()
     {
         return false;
     }
-    auto label = Label::createWithBMFont("fonts/direct50.fnt", DH(L"가 갸 거 겨 고 교 구 규 그기"));
+    auto label = Label::createWithBMFont("fonts/direct50.fnt", DH(L"가는누구교 갸"));
     label->setPosition(Vec2(100, 100));
     addChild(label);
     
