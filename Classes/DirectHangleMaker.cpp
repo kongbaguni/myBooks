@@ -72,7 +72,7 @@ static inline std::string changeWstringToDirectString(wchar_t inputWChar)
          
          종성
          ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ
-         
+         x  s A  w z 3  q  a      C W Q  1
          */
         
         //kf k6 kt ke kv k4 kb k5 kg kd kr
