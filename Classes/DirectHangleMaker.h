@@ -8,8 +8,9 @@
 
 #ifndef __myBooks__DirectHangleMaker__
 #define __myBooks__DirectHangleMaker__
-#define DH(__string__) DirectHangleMaker::makeDirect(__string__)
+#define DH(__wstring__) DirectHangleMaker::makeDirect(__wstring__)
 #include <stdio.h>
+#include <string>
 class DirectHangleMaker
 {
 public:
